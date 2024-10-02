@@ -66,4 +66,4 @@ node --env-file=./.env ./validate.js 320446
 - [KeePass Installation/Portability](https://keepass.info/help/v1/setup.html)
 - [KeePass FAQ](https://keepass.info/help/kb/faq.html)
 - [Speakeasy NPM](https://www.npmjs.com/package/speakeasy)
-- [Speakeasy Github repo](github.com/speakeasyjs/speakeasy)
+- [Speakeasy Github repo](https://github.com/speakeasyjs/speakeasy)
