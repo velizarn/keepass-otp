@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KeePass OTP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        homepage: 'README.md',
+        plugins: [
+          function (hook, vm) {
+            hook.afterEach(function (html, next) {
+              const extraContent =
+                '<p align="right"><a href="https://github.com/velizarn/keepass-otp" target="_blank">Github repo &raquo;</a></p>';
+              next(html + extraContent);
+            });
+          },
+        ],
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  </body>
+</html>
