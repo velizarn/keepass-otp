@@ -66,5 +66,6 @@ node --env-file=./.env ./validate.js 320446
 - [KeePass FAQ - OTP](https://keepass.info/help/base/placeholders.html#otp)
 - [Speakeasy NPM](https://www.npmjs.com/package/speakeasy)
 - [Speakeasy Github repo](https://github.com/speakeasyjs/speakeasy)
+- [Key URI Format](https://github.com/google/google-authenticator/wiki/Key-Uri-Format)
 - [FreeOTP two-factor authentication application](https://freeotp.github.io/)
 - [Implementing TOTP with nodejs](https://leoarok.medium.com/implementing-totp-with-nodejs-1e29762fdefe)
